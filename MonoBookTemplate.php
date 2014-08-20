@@ -106,10 +106,8 @@ class MonoBookTemplate extends BaseTemplate {
 			</div>
 		</div>
 		<div id="column-one"<?php $this->html( 'userlangattributes' ) ?>>
-			<h2><?php $this->msg( 'navigation-heading' ) ?></h2>
 			<?php $this->cactions(); ?>
 			<div class="portlet" id="p-personal" role="navigation">
-				<h3><?php $this->msg( 'personaltools' ) ?></h3>
 
 				<div class="pBody">
 					<ul<?php $this->html( 'userlangattributes' ) ?>>
@@ -264,8 +262,6 @@ class MonoBookTemplate extends BaseTemplate {
 	function cactions() {
 		?>
 		<div id="p-cactions" class="portlet" role="navigation">
-			<h3><?php $this->msg( 'views' ) ?></h3>
-
 			<div class="pBody">
 				<ul><?php
 					foreach ( $this->data['content_actions'] as $key => $tab ) {
