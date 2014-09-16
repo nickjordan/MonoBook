@@ -65,10 +65,6 @@ body {
 	direction: ltr; /* Needed for RTL flipping */
 	unicode-bidi: embed;
 }
-div#bodyContent
-{
-padding-right: 50px;
-}
 
 /* scale back up to a sane default */
 div#globalWrapper {
