@@ -38,6 +38,7 @@ div#content {
 {
 background-color: white;
 border: 1px solid #aaa;
+float: none;
 }
 
 .portlet h1, .portlet h2, .portlet h3, .portlet h4 {
