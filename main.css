@@ -36,6 +36,7 @@ div#content {
 }
 .infobox
 {
+float: none;
 background-color: white;
 border: 1px solid #aaa;
 }
