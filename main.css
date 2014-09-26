@@ -39,6 +39,7 @@ div#content {
 float: none;
 background-color: white;
 border: 1px solid #aaa;
+float: none;
 }
 
 .portlet h1, .portlet h2, .portlet h3, .portlet h4 {
@@ -65,10 +66,6 @@ body {
 	padding: 0;
 	direction: ltr; /* Needed for RTL flipping */
 	unicode-bidi: embed;
-}
-div#bodyContent
-{
-padding-right: 50px;
 }
 
 /* scale back up to a sane default */
