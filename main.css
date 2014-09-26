@@ -18,7 +18,7 @@ div#column-content {
 div#content {
 	background-color: #eff6f4;
 	width: inherit;
-	min-width: 910px;
+	width: 80vw;
 	margin: 2.8em 0 0 12.2em;
 	padding: 0 1em 1em 1em;
 	position: relative;
